@@ -1,0 +1,33 @@
+.stories {
+  /* border: 1px solid black; */
+  position: relative;
+  margin-left: 250px;
+  margin-right: 220px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 680px;
+  height: 100px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.users img {
+  border: 2.5px solid #a83c5e;
+  margin-top: 5px;
+  width: 49px;
+  height: 49px;
+  border-radius: 25px;
+
+}
+
+.users p {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 5px;
+}

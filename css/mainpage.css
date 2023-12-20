@@ -1,0 +1,110 @@
+.image-preview{
+  /* border: 1px solid black; */
+  height: 840px;
+  width: 540px;
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+
+.top-section{
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: inherit;
+}
+.top-section img{
+  border: 2px solid #a83c5e;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 10px;
+  margin-bottom: 0;
+}
+.username{
+  margin-left:20px;
+  width: 300px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.username p{
+  margin-top: 20px;
+  font-size: 14px;
+ 
+}
+.three-dots{
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  width: 50px;
+  height: 50px;
+  margin-top: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+.dot{
+  height: 3.5px;
+  width: 3.5px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+}
+.middle-section{
+  /* border: 2px solid yellow; */
+  height: 60%;
+  width: inherit;
+  display: inline-block;
+  justify-content: center;
+}
+ .icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+}
+
+.bookmark{
+  margin-left: 408px;
+}
+.bookmark img{
+  width: 30px;
+  height: 40px;
+}
+.middle-section img{
+  object-fit: contain;
+  height: 550px;
+  width: inherit;
+}
+.bottom-section{
+  height: 19%;
+}
+.likes{
+  margin-bottom: 0;
+  margin-top: 0;
+  cursor: pointer;
+}
+.comments{
+  margin-top:0;
+}
+.more , .comments-view{
+  color: grey;
+  cursor: pointer;
+}
+
+.comment-add{
+  border:none;
+  width: 540px;
+  cursor: pointer;
+  outline: none;
+}
+
+.comment-add-box{
+  display: flex;
+  cursor: pointer;
+}
+.smiley-face{
+  margin-left: -20px;
+}
